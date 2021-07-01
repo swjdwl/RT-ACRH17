@@ -26,3 +26,5 @@ sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds
 #这是passwall插件的最新库地址，库名、包名、菜单名目前统一，之前菜单名是 科学上网、...还有什么名字瞎几把改的我忘了...
 
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
+
+sed -i '$a src-git godproxy https://github.com/R619AC-OpenWrt/OpenWrt-Packages/tree/packages-18.06/luci-app-godproxy' feeds.conf.default 
