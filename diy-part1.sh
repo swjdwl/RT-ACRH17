@@ -29,4 +29,4 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 
 sed -i '$a src-git OpenAppFilter https://github.com/destan19/OpenAppFilter' feeds.conf.default
 
-sed -i '$a small-5 src-git https://github.com/small-5/luci-app-adblock-plus' feeds.conf.default
+sed -i '$a src-git small-5 https://github.com/small-5/luci-app-adblock-plus' feeds.conf.default
