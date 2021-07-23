@@ -22,6 +22,10 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 #添加老竭力的argon.config
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 
-sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=OpenWrt 2.4G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=ACRH17/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-sed -i '/set wireless.default_radio0.ssid=OpenWrt 2.4G/a\set wireless.default_radio1.ssid=RT-ACRH17 5G' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.default_radio0.ssid=ACRH17/a\ set wireless.default_radio1.ssid=RT-ACRH17' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+#sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=OpenWrt 2.4G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+#sed -i '/set wireless.default_radio0.ssid=OpenWrt 2.4G/a\set wireless.default_radio1.ssid=RT-ACRH17 5G' package/kernel/mac80211/files/lib/wifi/mac80211.sh
