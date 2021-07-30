@@ -13,6 +13,9 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generate
 
+#### 版本号里显示一个自己的名字（ababwnq build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）
+sed -i "s/OpenWrt /GuanLiBan /g" package/lean/default-settings/files/zzz-default-settings
+
 #删除原来的argon
 rm -rf  package/lean/luci-theme-argon
 
