@@ -20,7 +20,7 @@ sed -i '/uci commit system/i\uci set system.@system[0].hostname='PandoraBox'' pa
 sed -i "s/OpenWrt /PandoraBox /g" package/lean/default-settings/files/zzz-default-settings
 
 #### 稳定版修改R21xxx+自己的名字
-sed -i 's/R21.7.26/LeanYouHuaBan/g' package/lean/default-settings/files/zzz-default-settings
+#sed -i 's/R21.8.6/LeanYouHuaBan/g' package/lean/default-settings/files/zzz-default-settings
 
 #删除原来的argon
 rm -rf  package/lean/luci-theme-argon
