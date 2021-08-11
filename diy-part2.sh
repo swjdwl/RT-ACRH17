@@ -35,7 +35,7 @@ sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_
 
 sed -i '/set wireless.default_radio0.ssid=RT-ACRH17/a\ set wireless.default_radio1.ssid=HS-ACRH17' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-sed -i 's/"Frp 内网穿透"/"超级外网穿透"/g' package/lean/luci-app-frpc/po/zh-cn/frp.po
+sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透"/g' package/lean/luci-app-frpc/po/zh-cn/frp.po
 
 #### 添加rufengsuixing的adguardhome插件
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
