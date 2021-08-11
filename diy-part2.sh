@@ -36,5 +36,3 @@ sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_
 sed -i '/set wireless.default_radio0.ssid=RT-ACRH17/a\ set wireless.default_radio1.ssid=HS-ACRH17' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 sed -i 's/"Frp 内网穿透"/"超级外网穿透"/g' package/lean/luci-app-frpc/po/zh-cn/frp.po
-
-sed -i 's/"DNSFilter"/"超级广告过滤"/g' package/lean/luci-app-dnsfilter/po/zh-cn/frp.po
