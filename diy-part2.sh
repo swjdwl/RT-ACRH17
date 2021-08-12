@@ -34,8 +34,8 @@ sed -i '/set wireless.default_radio0.ssid=RT-ACRH17/a\ set wireless.default_radi
 
 sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透"/g' package/lean/luci-app-frpc/po/zh-cn/frp.po
 
-#### 添加rufengsuixing的adguardhome插件
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+#### 添加uamrws的adguardhome插件
+git clone https://github.com/uamrws/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 #### 添加原smartdns插件
 git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
