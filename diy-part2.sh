@@ -37,6 +37,6 @@ sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透"/g' package/lean/luci-
 #### 添加uamrws的adguardhome插件
 git clone https://github.com/uamrws/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
-#### 添加原smartdns插件
-git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
+#### 添加smartdns插件
+git clone https://github.com/qianmuyixiao/luci-app-smartdns.git package/lean/luci-app-smartdns
+git clone https://github.com/qianmuyixiao/smartdns.git package/lean/smartdns
