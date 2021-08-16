@@ -34,4 +34,8 @@ sed -i '/set wireless.default_radio0.ssid=RT-ACRH17/a\ set wireless.default_radi
 
 sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透"/g' package/lean/luci-app-frpc/po/zh-cn/frp.po
 
+git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus
+
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-turboacc/po/zh-cn/turboacc.po
+
+git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus
