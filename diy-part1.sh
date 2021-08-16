@@ -16,5 +16,3 @@
 # Add a feed source
 
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
-
-sed -i '$a src-git small-5 https://github.com/small-5/luci-app-adblock-plus' feeds.conf.default
