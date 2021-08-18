@@ -20,7 +20,7 @@ sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generat
 #sed -i "s/OpenWrt /PandoraBox /g" package/lean/default-settings/files/zzz-default-settings
 
 #### 稳定版修改R21xxx+自己的名字
-sed -i 's/R21.8.6/荒天帝/g' package/lean/default-settings/files/zzz-default-settings
+sed -i 's/R21.8.6/LeanXinYangBan/g' package/lean/default-settings/files/zzz-default-settings
 
 #删除原来的argon
 rm -rf  package/lean/luci-theme-argon
