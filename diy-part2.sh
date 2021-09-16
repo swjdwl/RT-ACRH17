@@ -36,6 +36,4 @@ sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-turbo
 
 sed -i 's/"CPU 性能优化调节"/"处理器性能优化调节"/g' package/lean/luci-app-cpufreq/po/zh-cn/cpufreq.po 
 
-sed -i 's/"Argon 主题设置"/"主题设置"/g' package/lean/luci-app-argon-config/po/zh-cn/argon-config.po 
-
 git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus
