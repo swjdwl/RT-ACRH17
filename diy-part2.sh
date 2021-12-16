@@ -35,4 +35,3 @@ sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透"/g' package/lean/luci-
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-turboacc/po/zh-cn/turboacc.po
 
 sed -i 's/"CPU 性能优化调节"/"处理器性能优化调节"/g' package/lean/luci-app-cpufreq/po/zh-cn/cpufreq.po 
-
