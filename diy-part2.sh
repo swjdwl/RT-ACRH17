@@ -13,10 +13,8 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generate
 
+#删除自带argon
 rm -rf  feeds/luci/themes/luci-theme-argon
-
-#添加老竭力的argon主题
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #添加老竭力的argon主题
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
@@ -40,4 +38,4 @@ sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' feeds/luci/applications/luc
 
 sed -i 's/"CPU 性能优化调节"/"处理器性能优化调节"/g' feeds/luci/applications/luci-app-cpufreq/po/zh-cn/cpufreq.po
 
-#git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus
+#git clone https://github.com/small-5/luci-app-adblock-plus.git feeds/luci/applications/luci-app-adblock-plus
