@@ -13,9 +13,13 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generate
 
-#rm -rf  package/lean/luci-theme-argon
+rm -rf  feeds/luci/themes/luci-theme-argon
 
-#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+#添加老竭力的argon主题
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+
+#添加老竭力的argon主题
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 修改主机名字，把YOU-R4A修改你喜欢的就行（不能纯数字或者使用中文）
 #sed -i '/uci commit system/i\uci set system.@system[0].hostname='RT-ACRH17'' package/lean/default-settings/files/zzz-default-settings
@@ -30,10 +34,10 @@ sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_
 
 sed -i '/set wireless.default_radio0.ssid=RT-ACRH17/a\ set wireless.default_radio1.ssid=HS-ACRH17' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-#sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透"/g' package/lean/luci-app-frpc/po/zh-cn/frp.po
+sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透"/g' feeds/luci/applications/luci-app-frpc/po/zh-cn/frp.po
 
-#sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-turboacc/po/zh-cn/turboacc.po
+sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' feeds/luci/applications/luci-app-turboacc/po/zh-cn/turboacc.po
 
-#sed -i 's/"CPU 性能优化调节"/"处理器性能优化调节"/g' package/lean/luci-app-cpufreq/po/zh-cn/cpufreq.po 
+sed -i 's/"CPU 性能优化调节"/"处理器性能优化调节"/g' feeds/luci/applications/luci-app-cpufreq/po/zh-cn/cpufreq.po
 
 #git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus
