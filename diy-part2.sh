@@ -37,5 +37,3 @@ sed -i '/set wireless.default_radio0.ssid=RT-ACRH17/a\ set wireless.default_radi
 #sed -i 's/"CPU 性能优化调节"/"处理器性能优化调节"/g' package/lean/luci-app-cpufreq/po/zh-cn/cpufreq.po 
 
 #git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus
-
-#sed -i 's/"CPU 性能优化调节"/"处理器性能优化调节"/g' package/lean/luci/blob/master/applications/luci-app-cpufreq/po/zh-cn/cpufreq.po 
