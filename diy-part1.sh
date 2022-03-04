@@ -20,3 +20,5 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
 
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+
+sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
