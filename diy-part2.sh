@@ -19,7 +19,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 
 sed -i '/uci commit system/i\uci set system.@system[0].hostname='YOY'' package/lean/default-settings/files/zzz-default-settings
 
-#sed -i "s/OpenWrt /OpenWrt/g" package/lean/default-settings/files/zzz-default-settings
+sed -i "s/OpenWrt /Q-WRt/g" package/lean/default-settings/files/zzz-default-settings
 
 sed -i 's/R22.3.13/For FMJYY23/g' package/lean/default-settings/files/zzz-default-settings
 
