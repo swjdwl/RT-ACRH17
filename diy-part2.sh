@@ -29,6 +29,6 @@ sed -i '/set wireless.default_radio0.ssid=RT-ACRH17/a\ set wireless.default_radi
 
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' feeds/luci/applications/luci-app-turboacc/po/zh-cn/turboacc.po
 
-sed -i 's/"CPU 性能优化调节"/"超频设置"/g' feeds/luci/applications/luci-app-cpufreq/po/zh-cn/cpufreq.po
+sed -i 's/"CPU 性能优化调节"/"超频"/g' feeds/luci/applications/luci-app-cpufreq/po/zh-cn/cpufreq.po
 
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/lean/luci-app-unblockneteasemusic
